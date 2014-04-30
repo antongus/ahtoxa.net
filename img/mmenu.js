@@ -42,7 +42,6 @@ rnode = AddRootNode('Про&nbsp;мою&nbsp;машину',root+'/izh/');
 		AddNode(node1, 'Активатор&nbsp;на&nbsp;5&nbsp;дверь',root+'/izh/tech/actuator/');
 		AddNode(node1, 'ГТЦ&nbsp;и&nbsp;ВУТ&nbsp;LUCAS',root+'/izh/tech/lucas/');
 	node1 = AddNode(rnode, 'Фотки',root+'/izh/album/');
-	node1 = AddNode(rnode, 'Ссылки',root+'/izh/links/');
 
 //rnode = AddRootNode('Прочее',root+'/other/');
 rnode = AddRootNode('Контакты',root+'/contacts.html');
