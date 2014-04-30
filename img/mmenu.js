@@ -1,52 +1,52 @@
 root=''
 
-rnode = AddRootNode('Начало',root+'/index.html');
+rnode = AddRootNode('РќР°С‡Р°Р»Рѕ',root+'/index.html');
 
-rnode = AddRootNode('Про&nbsp;электронику',root+'/micros/');
-	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;STM32',root+'/micros/stm32/');
-		AddNode(node1, 'Часы',root+'/micros/stm32/7-seg-clock/');
-	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;AT89C2051',root+'/micros/at89c2051/');
-		AddNode(node1, 'Светофор',root+'/micros/at89c2051/svetofor/');
-		AddNode(node1, 'Тахометр',root+'/micros/at89c2051/tachometer/');
-		AddNode(node1, 'Регулятор&nbsp;мощности',root+'/micros/at89c2051/power-reg/');
-	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;AtMega',root+'/micros/mega/');
-		AddNode(node1, 'Зарядное&nbsp;устройство',root+'/micros/mega/charger/');
-		AddNode(node1, 'Дисплей от Nokia&nbsp;6100',root+'/micros/lcd/nokia6100/');
-	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;AtTiny',root+'/micros/tiny/');
-		AddNode(node1, 'Семисегментный&nbsp;индикатор',root+'/micros/tiny/leds/');
-		AddNode(node1, 'Дисплей от Nokia&nbsp;3310',root+'/micros/lcd/nokia3310/');
-	node1 = AddNode(rnode, 'Другие&nbsp;проекты',root+'/micros/other/');
-		AddNode(node1, 'Нечто&nbsp;лучше&nbsp;КРЕНки',root+'/micros/other/step-down-34063/');
-	node1 = AddNode(rnode, 'ЖК&nbsp;дисплеи',root+'/micros/lcd/');
+rnode = AddRootNode('РџСЂРѕ&nbsp;СЌР»РµРєС‚СЂРѕРЅРёРєСѓ',root+'/micros/');
+	node1 = AddNode(rnode, 'РџСЂРѕРµРєС‚С‹&nbsp;РЅР°&nbsp;STM32',root+'/micros/stm32/');
+		AddNode(node1, 'Р§Р°СЃС‹',root+'/micros/stm32/7-seg-clock/');
+	node1 = AddNode(rnode, 'РџСЂРѕРµРєС‚С‹&nbsp;РЅР°&nbsp;AT89C2051',root+'/micros/at89c2051/');
+		AddNode(node1, 'РЎРІРµС‚РѕС„РѕСЂ',root+'/micros/at89c2051/svetofor/');
+		AddNode(node1, 'РўР°С…РѕРјРµС‚СЂ',root+'/micros/at89c2051/tachometer/');
+		AddNode(node1, 'Р РµРіСѓР»СЏС‚РѕСЂ&nbsp;РјРѕС‰РЅРѕСЃС‚Рё',root+'/micros/at89c2051/power-reg/');
+	node1 = AddNode(rnode, 'РџСЂРѕРµРєС‚С‹&nbsp;РЅР°&nbsp;AtMega',root+'/micros/mega/');
+		AddNode(node1, 'Р—Р°СЂСЏРґРЅРѕРµ&nbsp;СѓСЃС‚СЂРѕР№СЃС‚РІРѕ',root+'/micros/mega/charger/');
+		AddNode(node1, 'Р”РёСЃРїР»РµР№ РѕС‚ Nokia&nbsp;6100',root+'/micros/lcd/nokia6100/');
+	node1 = AddNode(rnode, 'РџСЂРѕРµРєС‚С‹&nbsp;РЅР°&nbsp;AtTiny',root+'/micros/tiny/');
+		AddNode(node1, 'РЎРµРјРёСЃРµРіРјРµРЅС‚РЅС‹Р№&nbsp;РёРЅРґРёРєР°С‚РѕСЂ',root+'/micros/tiny/leds/');
+		AddNode(node1, 'Р”РёСЃРїР»РµР№ РѕС‚ Nokia&nbsp;3310',root+'/micros/lcd/nokia3310/');
+	node1 = AddNode(rnode, 'Р”СЂСѓРіРёРµ&nbsp;РїСЂРѕРµРєС‚С‹',root+'/micros/other/');
+		AddNode(node1, 'РќРµС‡С‚Рѕ&nbsp;Р»СѓС‡С€Рµ&nbsp;РљР Р•РќРєРё',root+'/micros/other/step-down-34063/');
+	node1 = AddNode(rnode, 'Р–Рљ&nbsp;РґРёСЃРїР»РµРё',root+'/micros/lcd/');
 		AddNode(node1, 'Nokia&nbsp;3310',root+'/micros/lcd/nokia3310/');
 		AddNode(node1, 'Nokia&nbsp;7110',root+'/micros/lcd/nokia7110/');
 		AddNode(node1, 'Nokia&nbsp;6100',root+'/micros/lcd/nokia6100/');
 
-rnode = AddRootNode('Про&nbsp;роботов',root+'/robots/');
-	node1 = AddNode(rnode, 'Драйвер&nbsp;мотора',root+'/robots/motor-driver/');
-//	node1 = AddNode(rnode, 'Радиолинк',root+'/robots/radio-link/');
-//	node1 = AddNode(rnode, 'Сервы',root+'/robots/servo-controller/');
-	node1 = AddNode(rnode, 'Колёсная&nbsp;база',root+'/robots/wheel-base/');
+rnode = AddRootNode('РџСЂРѕ&nbsp;СЂРѕР±РѕС‚РѕРІ',root+'/robots/');
+	node1 = AddNode(rnode, 'Р”СЂР°Р№РІРµСЂ&nbsp;РјРѕС‚РѕСЂР°',root+'/robots/motor-driver/');
+//	node1 = AddNode(rnode, 'Р Р°РґРёРѕР»РёРЅРє',root+'/robots/radio-link/');
+//	node1 = AddNode(rnode, 'РЎРµСЂРІС‹',root+'/robots/servo-controller/');
+	node1 = AddNode(rnode, 'РљРѕР»С‘СЃРЅР°СЏ&nbsp;Р±Р°Р·Р°',root+'/robots/wheel-base/');
 
-rnode = AddRootNode('Про&nbsp;светодиоды',root+'/leds/');
-	node1 = AddNode(rnode, 'Светодиодная&nbsp;люстра&nbsp;на&nbsp;21Вт',root+'/leds/led-lamp-21w/');
-	node1 = AddNode(rnode, 'Драйвер&nbsp;на&nbsp;300мА',root+'/leds/led-driver-300ma/');
+rnode = AddRootNode('РџСЂРѕ&nbsp;СЃРІРµС‚РѕРґРёРѕРґС‹',root+'/leds/');
+	node1 = AddNode(rnode, 'РЎРІРµС‚РѕРґРёРѕРґРЅР°СЏ&nbsp;Р»СЋСЃС‚СЂР°&nbsp;РЅР°&nbsp;21Р’С‚',root+'/leds/led-lamp-21w/');
+	node1 = AddNode(rnode, 'Р”СЂР°Р№РІРµСЂ&nbsp;РЅР°&nbsp;300РјРђ',root+'/leds/led-driver-300ma/');
 
-rnode = AddRootNode('Про&nbsp;компьютеры',root+'/computers/');
-	node1 = AddNode(rnode, 'Самодельный&nbsp;NAS',root+'/computers/nas/');
+rnode = AddRootNode('РџСЂРѕ&nbsp;РєРѕРјРїСЊСЋС‚РµСЂС‹',root+'/computers/');
+	node1 = AddNode(rnode, 'РЎР°РјРѕРґРµР»СЊРЅС‹Р№&nbsp;NAS',root+'/computers/nas/');
 
-rnode = AddRootNode('Про&nbsp;мою&nbsp;машину',root+'/izh/');
-	node1 = AddNode(rnode, 'Доработки',root+'/izh/tech/');
-		AddNode(node1, 'Разгрузка&nbsp;замка&nbsp;зажигания',root+'/izh/tech/rele/');
-		AddNode(node1, 'Автоматический&nbsp;терморегулятор',root+'/izh/tech/hobot/');
-		AddNode(node1, 'Активатор&nbsp;на&nbsp;5&nbsp;дверь',root+'/izh/tech/actuator/');
-		AddNode(node1, 'ГТЦ&nbsp;и&nbsp;ВУТ&nbsp;LUCAS',root+'/izh/tech/lucas/');
-	node1 = AddNode(rnode, 'Фотки',root+'/izh/album/');
-	node1 = AddNode(rnode, 'Ссылки',root+'/izh/links/');
+rnode = AddRootNode('РџСЂРѕ&nbsp;РјРѕСЋ&nbsp;РјР°С€РёРЅСѓ',root+'/izh/');
+	node1 = AddNode(rnode, 'Р”РѕСЂР°Р±РѕС‚РєРё',root+'/izh/tech/');
+		AddNode(node1, 'Р Р°Р·РіСЂСѓР·РєР°&nbsp;Р·Р°РјРєР°&nbsp;Р·Р°Р¶РёРіР°РЅРёСЏ',root+'/izh/tech/rele/');
+		AddNode(node1, 'РђРІС‚РѕРјР°С‚РёС‡РµСЃРєРёР№&nbsp;С‚РµСЂРјРѕСЂРµРіСѓР»СЏС‚РѕСЂ',root+'/izh/tech/hobot/');
+		AddNode(node1, 'РђРєС‚РёРІР°С‚РѕСЂ&nbsp;РЅР°&nbsp;5&nbsp;РґРІРµСЂСЊ',root+'/izh/tech/actuator/');
+		AddNode(node1, 'Р“РўР¦&nbsp;Рё&nbsp;Р’РЈРў&nbsp;LUCAS',root+'/izh/tech/lucas/');
+	node1 = AddNode(rnode, 'Р¤РѕС‚РєРё',root+'/izh/album/');
+	node1 = AddNode(rnode, 'РЎСЃС‹Р»РєРё',root+'/izh/links/');
 
-//rnode = AddRootNode('Прочее',root+'/other/');
-rnode = AddRootNode('Контакты',root+'/contacts.html');
-rnode = AddRootNode('Карта сайта',root+'/sitemap.html');
+//rnode = AddRootNode('РџСЂРѕС‡РµРµ',root+'/other/');
+rnode = AddRootNode('РљРѕРЅС‚Р°РєС‚С‹',root+'/contacts.html');
+rnode = AddRootNode('РљР°СЂС‚Р° СЃР°Р№С‚Р°',root+'/sitemap.html');
 
 function ToggleTree()
 {
@@ -75,7 +75,7 @@ function SiteHead() {
 	document.write('<div id="logo"><a href="'+root+'/">&nbsp;</a></div>');
 	document.write('<div id="siteTitle"><span>AHTOXA.NET</span></div>');
 	document.write('<div id="doctree">');
-	document.write('<a  class="treelink" href="javascript:void(0);" onClick=ToggleTree() title="Спрятать/показать оглавление">Оглавление</a>');
+	document.write('<a  class="treelink" href="javascript:void(0);" onClick=ToggleTree() title="РЎРїСЂСЏС‚Р°С‚СЊ/РїРѕРєР°Р·Р°С‚СЊ РѕРіР»Р°РІР»РµРЅРёРµ">РћРіР»Р°РІР»РµРЅРёРµ</a>');
 	document.write('<div id="nodes">');
 
 	DisplayNodes();
