@@ -10,7 +10,6 @@ p {
 	text-indent: 2em;
 }
 
-
 h1, h2, h3 {
 	text-indent: 1em;
 	color: #1f3d99;
@@ -38,7 +37,6 @@ th {
 
 caption {
 	background-color: #EEE;
-/*	caption-side: bottom; */
 }
 
 .attention {
@@ -74,6 +72,7 @@ ul ul {
 
 .image {
 	text-align: center;
+	text-indent: 0;
 }
 
 .treetable
@@ -137,6 +136,12 @@ a.treelink:hover {
 	width: 64px;
 }
 
+.wspacer {
+	width: 100%;
+	min-width: 1110px;
+}
+
+
 #doctree {
   width: 282px;
   float: left;
@@ -153,11 +158,6 @@ a.treelink:hover {
   border-right-color: #000000;
 }
 
-#content {
-	/* buggy IE does not redraw normal border sometimes */
-	background: transparent url("vert-bar.gif") repeat-y top right;
-}
-
 #content[id="content"] {
 	background: none;
 	border-left: 1px solid;
@@ -171,20 +171,36 @@ a.treelink:hover {
 }
 
 #bottom {
-  background-color: #203060;
-  padding-left: 10px;
-  padding-right: 20px;
-  color: white;
+	background-color: #203060;
+	color: #BBB;
+	overflow:auto;
+	padding-left: 8px;
+}
+
+#bottom div {
+  height: 60px;
 }
 
 #bottom a {
-  background-color: #203060;
-  color: white;
-  text-decoration: none; 
+	color: white;
+	text-decoration: none; 
 }
 
-.copyright
-{
-  text-align: right;
-  float: right;
+.copyright {
+	margin-left: 180;
+}
+
+#bleft{
+	width:88px;
+	float:left;
+	position:relative;
+	padding-top: 4px;
+	padding-left: 200px;
+}
+
+#bcenter{
+	width:700px;
+	float:left;
+	position: relative;
+	padding-left: 8px;
 }

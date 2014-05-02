@@ -17,6 +17,7 @@ rnode = AddRootNode('Про&nbsp;электронику',root+'/micros/');
 		AddNode(node1, 'Дисплей от Nokia&nbsp;3310',root+'/micros/lcd/nokia3310/');
 	node1 = AddNode(rnode, 'Другие&nbsp;проекты',root+'/micros/other/');
 		AddNode(node1, 'Нечто&nbsp;лучше&nbsp;КРЕНки',root+'/micros/other/step-down-34063/');
+		AddNode(node1, 'Светодиодная&nbsp;матрица',root+'/micros/other/led-matrix-max7219/');
 	node1 = AddNode(rnode, 'ЖК&nbsp;дисплеи',root+'/micros/lcd/');
 		AddNode(node1, 'Nokia&nbsp;3310',root+'/micros/lcd/nokia3310/');
 		AddNode(node1, 'Nokia&nbsp;7110',root+'/micros/lcd/nokia7110/');
@@ -69,6 +70,7 @@ function ToggleTree()
 function SiteHead() {
 
 	document.title='AHTOXA.NET : ' + GetTitlePath();
+	document.write('<div class="wspacer">');
 	document.write('<a name="top"></a>');
 	document.write('<div id="document">');
 	document.write('<div id="logo"><a href="'+root+'/">&nbsp;</a></div>');
@@ -79,8 +81,7 @@ function SiteHead() {
 
 	DisplayNodes();
 
-	document.write('</div>');
-	document.write('</div>');
+	document.write('</div></div>'); // nodes, doctree
 
 	document.write('<hr class="invisible" />');
 	document.write('<div id="content">');
@@ -89,7 +90,12 @@ function SiteHead() {
 }
 
 function SiteFoot() {
-	document.write('</div></div><div id="bottom">');
+	document.write('</div></div>'); //  content, document
+	document.write('<div id="bottom">');
 	document.write('<a href=#top>top</a>');
-	document.write('<span class="copyright">&copy; AHTOXA, 2006-2014.</span></div>');
+	document.write('<span class="copyright">&copy; AHTOXA, 2006-2014.</span><br/><br/>');
+	document.write('<div id="bleft"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.ru"><img alt="Лицензия Creative Commons" style="border-width:0" src="/img/CC-BY-SA-88x31.png" /></a></div>');
+	document.write('<div id="bcenter">Если не указано иное, содержимое данного сайта доступно на условиях <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.ru">лицензии Creative Commons «Attribution-ShareAlike» 4.0 Всемирная</a></div>');
+	document.write('</div></div>'); // bottom, wspacer
 }
+
