@@ -39,7 +39,7 @@ rnode = AddRootNode('Про&nbsp;компьютеры',root+'/computers/');
 rnode = AddRootNode('Про&nbsp;мою&nbsp;машину',root+'/izh/');
 	node1 = AddNode(rnode, 'Доработки',root+'/izh/tech/');
 		AddNode(node1, 'Разгрузка&nbsp;замка&nbsp;зажигания',root+'/izh/tech/rele/');
-		AddNode(node1, 'Автоматический&nbsp;терморегулятор',root+'/izh/tech/hobot/');
+		AddNode(node1, 'Терморегулятор-автомат',root+'/izh/tech/hobot/');
 		AddNode(node1, 'Активатор&nbsp;на&nbsp;5&nbsp;дверь',root+'/izh/tech/actuator/');
 		AddNode(node1, 'ГТЦ&nbsp;и&nbsp;ВУТ&nbsp;LUCAS',root+'/izh/tech/lucas/');
 	node1 = AddNode(rnode, 'Фотки',root+'/izh/album/');
