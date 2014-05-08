@@ -5,6 +5,7 @@ rnode = AddRootNode('Начало',root+'/index.html');
 rnode = AddRootNode('Про&nbsp;электронику',root+'/micros/');
 	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;STM32',root+'/micros/stm32/');
 		AddNode(node1, 'Часы',root+'/micros/stm32/7-seg-clock/');
+		AddNode(node1, 'Часы&nbsp;с&nbsp;FM-радио',root+'/micros/stm32/led-matrix-clock-fm/');
 	node1 = AddNode(rnode, 'Проекты&nbsp;на&nbsp;AT89C2051',root+'/micros/at89c2051/');
 		AddNode(node1, 'Светофор',root+'/micros/at89c2051/svetofor/');
 		AddNode(node1, 'Тахометр',root+'/micros/at89c2051/tachometer/');
