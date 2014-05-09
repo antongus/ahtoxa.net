@@ -88,7 +88,7 @@ ul ul {
 }
 
 .treelink {	
-	  font-size: 10px;
+	font-size: 10px;
 }
 
 a.treelink:link, a.treelink:visited {
@@ -165,6 +165,7 @@ a.treelink:hover {
 	padding-bottom: 10px;
 	margin: 5px 5px 45px 300px;
 	border-left: 1px solid;
+	min-height: 600px;
 }
 
 #bottom {
@@ -196,4 +197,17 @@ a.treelink:hover {
 	float:left;
 	position: relative;
 	padding-left: 8px;
+}
+
+@media print {
+	#siteTitle { display:none; }
+	#doctree { display:none; }
+	#bottom { display:none; }
+	#content {
+		border-right-color: #000000;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		margin: 5px 5px 5px 5px;
+		border-left: none;
+	}
 }
