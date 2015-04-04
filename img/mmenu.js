@@ -94,7 +94,7 @@ function SiteFoot() {
 	document.write('</div></div>'); //  content, document
 	document.write('<div id="bottom">');
 	document.write('<a href=#top>top</a>');
-	document.write('<span class="copyright">&copy; AHTOXA, 2005-2014.</span><br/><br/>');
+	document.write('<span class="copyright">&copy; AHTOXA, 2005-2015.</span><br/><br/>');
 	document.write('<div id="bleft"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.ru"><img alt="Лицензия Creative Commons" style="border-width:0" src="/img/CC-BY-SA-88x31.png" /></a></div>');
 	document.write('<div id="bcenter">Если не указано иное, содержимое данного сайта доступно на условиях <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.ru">лицензии Creative Commons «Attribution-ShareAlike» 4.0 Всемирная</a><br /><br /></div>');
 	document.write('</div></div>'); // bottom, wspacer
